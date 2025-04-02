@@ -23,7 +23,7 @@ address {
 .logo {
   color: #4d5ae5;
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 700;
   font-family: Raleway, sans-serif;
   line-height: 1.17;
   text-transform: uppercase;
@@ -43,6 +43,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 .nav-link {
   color: #2e2f42;
@@ -107,6 +108,7 @@ address {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .about-text {
@@ -117,6 +119,9 @@ address {
 }
 
 /* Секція "Наша команда" */
+.team {
+  background-color: #f4f4fd;
+}
 
 .team-title {
   font-weight: 700;
@@ -124,10 +129,11 @@ address {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
-.team-img {
-  width: 264px;
-  height: 260px;
+.team-member {
+  background-color: #ffffff;
 }
 
 .team-name {
@@ -136,6 +142,7 @@ address {
   line-height: 120%;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 .team-role {
   font-weight: 400;
@@ -154,6 +161,8 @@ address {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .portfolio-name {
@@ -186,5 +195,5 @@ address {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: #f4f4fd;
 }
