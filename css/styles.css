@@ -296,6 +296,9 @@ address {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+portfolio-name {
+  margin-bottom: 8px;
+}
 
 .portfolio-text {
   font-weight: 400;
